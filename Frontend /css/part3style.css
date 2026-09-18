@@ -1,0 +1,27 @@
+div{
+    height:200px;
+    width: 400px;
+    background-color: wheat;
+    border-width: 5px;
+    border-style:groove;
+    border-color:red ;
+    border-radius: 10px;
+    margin: 10px 20px 30px 40px;
+}
+h1{
+    border: 3px dashed lightpink;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0%;
+}
+button{
+    border-radius: 10px;
+    border: 2px solid rgb(64, 64, 249);
+    background-color: blueviolet;
+    color:azure;
+    padding-left:  25px;
+    padding-right: 25px;
+}
+/* .second{
+    margin-left: 50%;
+} */

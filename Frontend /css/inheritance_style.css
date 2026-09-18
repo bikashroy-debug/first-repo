@@ -1,0 +1,19 @@
+/* *{
+    background-color: lightskyblue;
+} */
+
+div{
+    background-color: lightcoral;
+}
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: aqua;
+}
