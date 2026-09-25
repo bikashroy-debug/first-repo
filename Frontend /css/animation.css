@@ -1,0 +1,71 @@
+.box {
+    height: 100px;
+    width: 200px;
+    background-color: black;
+    color: black;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+
+
+
+    /* animation-name: colorplate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+    animation: colorplate 2s ease-in 0s infinite alternate;
+}
+
+
+
+
+@keyframes colorplate {
+
+    /* from {
+        height: 100px;
+        width: 200px;
+        background-color: lightcoral;
+        font-size: 18px;
+        font-weight: 300;
+
+    }
+
+    to {
+        height: 200px;
+        width: 400px;
+        background-color: rgb(233, 187, 49);
+        font-size: 24px;
+        font-weight: 400;
+        border-radius: 10px;
+
+    } */
+    0% {
+        height: 100px;
+        width: 200px;
+        background-color: rgb(246, 139, 9);
+        font-size: 18px;
+        font-weight: 300;
+        box-shadow: 10px 8px 8px gray;
+
+    }
+
+    50% {
+        height: 200px;
+        width: 400px;
+        background-color: lightgreen;
+        font-size: 24px;
+        font-weight: 400;
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px gray;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: rgb(29, 122, 236);
+        box-shadow: 14px 12px 14px gray;
+    }
+}
