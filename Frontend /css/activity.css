@@ -1,0 +1,38 @@
+i {
+    color: rgb(227, 149, 6);
+}
+
+span {
+    color: rgb(154, 98, 2);
+}
+
+#pets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card {
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h4 {
+    font-family: Arial;
+    text-align: center;
+    color: firebrick;
+}
+
+@media (max-width:600px) {
+    #pets {
+        flex-wrap: wrap;
+    }
+}
