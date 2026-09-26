@@ -1,9 +1,13 @@
+* {
+    background-color: brown;
+}
+
 i {
     color: rgb(227, 149, 6);
 }
 
 span {
-    color: rgb(154, 98, 2);
+    color: rgb(193, 123, 2);
 }
 
 #pets {
@@ -18,17 +22,18 @@ span {
 
 .card {
     width: 300px;
-    border: 1px solid black;
+    border: 1px solid rgb(184, 115, 4);
     border-radius: 15px;
     font-size: 12px;
     padding: 10px;
     margin: 10px;
+    color: rgb(225, 143, 1);
 }
 
 h4 {
     font-family: Arial;
     text-align: center;
-    color: firebrick;
+    color: #000;
 }
 
 @media (max-width:600px) {
