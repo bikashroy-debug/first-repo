@@ -57,7 +57,7 @@
     50% {
         height: 200px;
         width: 400px;
-        background-color: lightgreen;
+        background-color: rgb(103, 237, 103);
         font-size: 24px;
         font-weight: 400;
         border-radius: 10px;
@@ -66,7 +66,7 @@
 
     100% {
         border-radius: 50%;
-        background-color: rgb(29, 122, 236);
+        background-color: #00ff12;
         box-shadow: 14px 12px 14px gray;
     }
 }
